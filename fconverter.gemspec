@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "A file converter with many options."
   s.authors     = ["Alexis VIVIER"]
   s.email       = "alexis@nevertoolate.studio"
-  s.files       = ["bin/fconverter", "lib/fconverter.rb"]
+  s.files       = ["bin/fconverter", "lib/fconverter.rb"] + Dir["lib/**/*.rb"]
   s.executables = ["fconverter"]
   s.homepage    =
     "https://rubygems.org/gems/fconverter"
